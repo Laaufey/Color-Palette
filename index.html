@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ifo7arw.css" />
+    <title>Improved Color Selector</title>
+  </head>
+  <body>
+    <h2>Select color!</h2>
+    <label id="theme-changer">
+      Choose theme
+      <select name="theme" id="theme" onchange="changeHarmony()">
+        <option value="" class="">Select theme</option>
+        <option value="Analogous" class="Analogous">Analogous</option>
+        <option value="Mono" class="Mono">Mono</option>
+        <option value="Triad" class="Triad">Triad</option>
+        <option value="Complimentary" class="Complimentary">
+          Complimentary
+        </option>
+        <option value="Compound" class="Compound">Compound</option>
+        <option value="Shades" class="Shades">Shades</option>
+      </select>
+    </label>
+    <div class="section-2">
+      <div id="color1">
+        <div id="color-box"></div>
+        <p id="HEX">HEX: #000000</p>
+        <p id="RGB">RGB: 0, 0, 0</p>
+        <p id="HSL">HSL: 0, 0%, 0%</p>
+      </div>
+      <div id="color2">
+        <div id="color-box"></div>
+        <p id="HEX">HEX: #000000</p>
+        <p id="RGB">RGB: 0, 0, 0</p>
+        <p id="HSL">HSL: 0, 0%, 0%</p>
+      </div>
+      <div id="color3">
+        <div id="base-color"></div>
+        <p id="HEX">HEX: #000000</p>
+        <p id="RGB">RGB: 0, 0, 0</p>
+        <p id="HSL">HSL: 0, 0%, 0%</p>
+      </div>
+      <div id="color4">
+        <div id="color-box"></div>
+        <p id="HEX">HEX: #000000</p>
+        <p id="RGB">RGB: 0, 0, 0</p>
+        <p id="HSL">HSL: 0, 0%, 0%</p>
+      </div>
+      <div id="color5">
+        <div id="color-box"></div>
+        <p id="HEX">HEX: #000000</p>
+        <p id="RGB">RGB: 0, 0, 0</p>
+        <p id="HSL">HSL: 0, 0%, 0%</p>
+      </div>
+    </div>
+    <div class="color-input"><input id="colorvalue" type="color" /></div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+* {
+  font-family: prestige-elite-std, monospace;
+  font-weight: 400;
+  font-size: 13px;
+}
+h2,
+.color-input {
+  margin: 0 auto;
+  text-align: center;
+}
+#color-box,
+#base-color {
+  width: 15vw;
+  height: 15vh;
+  border-radius: 2%;
+  background-color: black;
+  /* margin: 1vw auto 2vw; */
+}
+p {
+  margin: 10px;
+}
+.color-input {
+  margin: 2vw;
+}
+.section-2 {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+#color1,
+#color2,
+#color3,
+#color4,
+#color5 {
+  flex-flow: column;
+  margin: 2vw auto;
+
+  border-radius: 2%;
+}
